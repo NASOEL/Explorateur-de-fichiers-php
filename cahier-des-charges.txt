@@ -1,0 +1,30 @@
+Projet Explorateur de fichiers en PHP
+
+Fonctionnalités :
+
+-Navigation dans les dossiers : 
+-- ouvrir un dossier : opendir() ; readdir() ; scandir()
+-- fermer un dossier : closedir() ; 
+-- fermer un fichier: fclose ();
+-- nouveau dossier: mkdir();
+-- nommenclature :rename ();
+-- revenir au dossier parent : rewinddir(); dirname ();
+
+	***********************
+-Déplacement :
+-- Couper :move_uploaded_file ();
+-- Copier: copy ();
+-- Coller
+	***********************
+-Suppression :
+--  Fichiers :unlink ();
+--  Dossiers :delete(); rmdir (); 
+--  Corbeille
+--- Couper
+--- Coller dans le répertoire Corbeille
+
+- Recherche
+		***********************
+- Front-end de l'application
+-- Moteur de template TWIG
+-- Esthétique de l'application (icones, etc.)
